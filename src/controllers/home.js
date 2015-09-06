@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
   res.session('visits', ++visits);
 
   res.render('home/welcome', {
-    siteName: 'StudioVictory',
+    siteName: 'Intranet',
     visits: visits
   });
 });

@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/CodeJobs/StudioVictory.git"
+    "url": "git://github.com/kattsushi/app-intranet.git"
   },
   "dependencies": {
     "body-parser": "~1.10.2",

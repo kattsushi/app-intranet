@@ -54,19 +54,19 @@ module.exports = function(grunt) {
         command: 'npm install'
       },
       vagrantLogs: {
-        command: 'vagrant ssh -c "cd /vagrant && pm2 logs"'
+        command: 'pm2 logs"'
       },
       vagrantStatus: {
-        command: 'vagrant ssh -c "cd /vagrant && pm2 list"'
+        command: 'pm2 list"'
       },
       vagrantStop: {
-        command: 'vagrant ssh -c "cd /vagrant && pm2 kill"'
+        command: 'pm2 kill"'
       },
       vagrantDelete: {
-        command: 'vagrant ssh -c "cd /vagrant && pm2 delete pm2.json"'
+        command: 'pm2 delete pm2.json"'
       },
       vagrantStart: {
-        command: 'vagrant ssh -c "cd /vagrant && pm2 start pm2.json"'
+        command: 'pm2 start pm2.json"'
       }
     },
     mochaTest: {
